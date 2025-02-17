@@ -84,3 +84,14 @@ The thermostat is equipped with buttons that allow local control of its function
 <img src="img/menu3-unset.png" alt="menu3unset" width="300"/>
 
 The device returns to the main screen after 3 seconds of inactivity.
+
+## Dependencies
+This project uses the following third-party libraries:
+
+- [OneWire](https://github.com/PaulStoffregen/OneWire)
+- [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library)
+- [LiquidCrystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C)
+- [ESP8266WiFi](https://github.com/esp8266/Arduino)
+- [ESP8266WebServer](https://github.com/esp8266/Arduino)
+
+All libraries remain the property of their respective authors and are not covered by the Unlicense license of this project.
